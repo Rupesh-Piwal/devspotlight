@@ -19,7 +19,7 @@ const ProjectCard = () => {
             <ThumbsUp className="w-4 h-4 mr-2" />
             42
           </Button>
-          <Button className="hover:underline bg-gradient-to-tr from-[#FFA05C] to-[#F06500]">
+          <Button className="bg-gradient-to-r from-orange-500 to-orange-800 hover:from-orange-800 hover:to-orange-500 hover:opacity-70">
             View Project
           </Button>
         </div>

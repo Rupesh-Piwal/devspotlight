@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 const SearchAndFilter = () => {
   return (
     <div className=" flex flex-col gap-3 md:flex-row items-center space-x-4 ">
-      <div className="relative flex-grow">
+      <div className="relative flex-grow w-full">
         <Input
           type="text"
           placeholder="Search projects..."
@@ -18,7 +18,7 @@ const SearchAndFilter = () => {
           (category) => (
             <Button
               key={category}
-              className="bg-[#32383E] text-white text-[13px] mx-[2px] md:mx-[3px] border hover:bg-gradient-to-r from-[#FFA05C] to-[#F06500]"
+              className="bg-[#32383E] text-white text-[13px] mx-[2px] md:mx-[3px] border hover:bg-gradient-to-r from-orange-500 to-orange-800 hover:opacity-70"
             >
               {category}
             </Button>

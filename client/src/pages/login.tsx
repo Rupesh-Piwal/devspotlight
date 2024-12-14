@@ -14,7 +14,7 @@ const Login = () => {
           Or{" "}
           <Link
             to="/signup"
-            className="font-medium text-transparent bg-clip-text bg-gradient-to-tr from-[#FFA05C] to-[#F06500] hover:bg-[#FFA05C] "
+            className="font-medium bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text"
           >
             create a new account
           </Link>
@@ -60,7 +60,7 @@ const Login = () => {
               <div className="text-sm">
                 <a
                   href="#"
-                  className="font-medium text-transparent bg-clip-text bg-gradient-to-tr from-[#FFA05C] to-[#F06500] hover:bg-[#FFA05C]"
+                  className="font-medium bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text"
                 >
                   Forgot your password?
                 </a>
@@ -70,7 +70,7 @@ const Login = () => {
             <div>
               <Button
                 type="submit"
-                className="w-full bg-gradient-to-tr from-[#FFA05C] to-[#F06500] hover:opacity-70"
+                className="w-full bg-gradient-to-r from-orange-500 to-orange-800 hover:opacity-70"
               >
                 Sign in
               </Button>

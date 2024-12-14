@@ -14,7 +14,7 @@ export default function Signup() {
           Or{" "}
           <Link
             to="/login"
-            className="font-medium text-transparent bg-clip-text bg-gradient-to-tr from-[#FFA05C] to-[#F06500] hover:bg-[#FFA05C]"
+            className="font-medium bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text"
           >
             sign in to your existing account
           </Link>
@@ -75,7 +75,7 @@ export default function Signup() {
             <div>
               <Button
                 type="submit"
-                className="w-full bg-gradient-to-tr from-[#FFA05C] to-[#F06500] hover:bg-[#FFA05C]"
+                className="w-full bg-gradient-to-r from-orange-500 to-orange-800 hover:bg-[#FFA05C]"
               >
                 Sign up
               </Button>

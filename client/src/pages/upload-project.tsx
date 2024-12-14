@@ -113,16 +113,16 @@ const UploadProject = () => {
                     className="absolute top-2 right-2 bg-white rounded-full p-1 shadow-md hidden"
                     aria-label="Remove thumbnail"
                   >
-                    <X className="w-5 h-5 text-gray-600" />
+                    <X className="w-5 h-5 text-gray-400" />
                   </button>
                 </div>
                 <div className="flex flex-col items-center justify-center pt-5 pb-6">
-                  <Upload className="w-8 h-8 mb-4 text-gray-500" />
-                  <p className="mb-2 text-sm text-gray-500">
+                  <Upload className="w-8 h-8 mb-4 text-gray-400" />
+                  <p className="mb-2 text-sm text-gray-400">
                     <span className="font-semibold">Click to upload</span> or
                     drag and drop
                   </p>
-                  <p className="text-xs text-gray-500">
+                  <p className="text-xs text-gray-400">
                     PNG, JPG or GIF (MAX. 800x400px)
                   </p>
                 </div>
@@ -139,7 +139,7 @@ const UploadProject = () => {
 
           <Button
             type="submit"
-            className="w-full bg-gradient-to-tr from-[#FFA05C] to-[#F06500] hover:opacity-80"
+            className="w-full bg-gradient-to-r from-orange-500 to-orange-800 hover:opacity-70"
           >
             Upload Project
           </Button>
